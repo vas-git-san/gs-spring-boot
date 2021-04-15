@@ -1,4 +1,4 @@
-FROM tomcat:7
+FROM tomcat:latest
 
 
-COPY initial/target/*.jar /var/lib/tomcat/webapps
+COPY target/*.jar /var/lib/tomcat/webapps
